@@ -1,0 +1,29 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "Website scraping using Cheerio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugochukwu95/scraper.git"
+  },
+  "keywords": [
+    "Website",
+    "scrapiing",
+    "Cheerio",
+    "Node.js"
+  ],
+  "author": "UGOCHUKWU OGUEJIOFOR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ugochukwu95/scraper/issues"
+  },
+  "homepage": "https://github.com/ugochukwu95/scraper#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
