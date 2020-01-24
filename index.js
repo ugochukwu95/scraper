@@ -21,6 +21,10 @@ async function fetchHTML(url) {
 
 // Listen to requests
 app.get('/', (req, res) => {
+	res.json({"message": "Welcome to Ugo Oguejiofor's scraping api"});
+});
+
+app.post('/', (req, res) => {
 	
 	// If there is a bad request return an error
 	if (!req.body.url) {
